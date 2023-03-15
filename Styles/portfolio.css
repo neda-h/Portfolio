@@ -6,7 +6,38 @@
   --body-dark-color: #053231;
   --body-medium-color: #024e4b;
 }
-
+@media (max-width: 850px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .hero p {
+    font-size: 30px;
+  }
+  .logo {
+    padding: 5px;
+    width: 180px;
+    height: 60px;
+  }
+}
+@media (min-width: 850px) {
+  h1 {
+    font-size: 96px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 36px;
+  }
+  .logo {
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+  }
+}
 body {
   font-family: var(--default-font);
   color: var(--body-medium-color);
@@ -14,18 +45,16 @@ body {
 h1 {
   color: var(--body-dark-color);
   font-family: var(--heading-font);
-  font-size: 96px;
   font-weight: bold;
 }
-h2 {
-  font-size: 24px;
-}
+
 p {
   font-size: 16px;
   font-weight: normal;
 }
-.top-navigation {
-  background: var(--body-lihght-color);
+
+.nav-collapse-show {
+  text-align: right;
 }
 .navigation-links {
   display: flex;
@@ -42,6 +71,7 @@ p {
 
 .hero {
   background-color: var(--body-lihght-color);
+  padding: 0;
 }
 .header-content {
   display: block;
@@ -49,15 +79,10 @@ p {
   padding: 160px 20px;
 }
 .hero p {
-  font-size: 36px;
   font-family: var(--default-font);
   font-weight: bold;
 }
-.logo {
-  padding: 10px;
-  width: 240px;
-  height: 72px;
-}
+
 .btn-header {
   background: var(--branding-color);
   color: var(--body-medium-color);
