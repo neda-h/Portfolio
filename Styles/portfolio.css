@@ -92,12 +92,27 @@ p {
   background-color: var(--body-lihght-color);
   text-align: center;
 }
+.about-container {
+  background-color: var(--body-lihght-color);
+  padding: 200px;
+}
+.email-class {
+  display: flex;
+  text-align: center;
+  margin: 10px auto;
+  color: var(--body-medium-color);
+  font-size: 22px;
+  text-decoration: none;
+}
 @media (max-width: 976px) {
   h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
   h2 {
     font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
   }
   .hero p {
     font-size: 30px;
@@ -106,5 +121,8 @@ p {
     padding: 5px;
     width: 180px;
     height: 60px;
+  }
+  .about-container {
+    padding: 120px 20px 50px 20px;
   }
 }
