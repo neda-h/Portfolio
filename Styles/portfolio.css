@@ -110,7 +110,27 @@ p {
 .about-info {
   margin: 20px;
 }
-
+.contact-container {
+  padding: 200px 20px;
+}
+.contact-info {
+  margin: 20px;
+}
+.contact-info h1 {
+  font-size: 64px;
+  line-height: 80px;
+  text-align: left;
+}
+.contact-info h3 {
+  padding: 30px;
+  font-size: 24px;
+}
+.contact-info a {
+  padding: 40px;
+  text-decoration: none;
+  color: var(--branding-color);
+  font-weight: 900;
+}
 .content-container {
   padding: 200px 20px;
 }
@@ -141,6 +161,9 @@ p {
   color: var(--body-medium-color);
   font-size: 22px;
   text-decoration: none;
+}
+.icons {
+  color: var(--body-medium-color);
 }
 @media (max-width: 976px) {
   h1 {
