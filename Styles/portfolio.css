@@ -102,8 +102,37 @@ p {
 .about-container {
   padding: 200px 20px;
 }
+.about-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
 .about-info {
   margin: 20px;
+}
+
+.content-container {
+  padding: 200px 20px;
+}
+
+.content-info {
+  margin: 20px;
+  text-align: center;
+}
+.content-info h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-info h3 {
+  font-size: 24px;
+}
+.content-info img {
+  border: 1px solid var(--body-medium-color);
+  border-radius: 10px;
+}
+.content-info p {
+  opacity: 85%;
+  font-size: 16px;
 }
 .email-class {
   display: flex;
