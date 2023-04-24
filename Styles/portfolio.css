@@ -6,6 +6,8 @@
   --body-dark-color: #053231;
   --body-medium-color: #024e4b;
   --shadow-color: #b8f7f5;
+  --navbar-dark-color: #255c8b;
+  --navbar-medium-color: #2b699e;
 }
 
 body {
@@ -46,14 +48,38 @@ p {
   background-color: var(--body-lihght-color);
   height: 60px;
 }
-
+.navbar-header {
+  margin: 0;
+  padding: 0 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 18px 0 0 20px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  padding: 0 0 0 10px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--navbar-dark-color);
+  transition: all 150ms ease-in-out;
+}
+nav a:hover {
+  font-weight: 600;
+  color: var(--navbar-medium-color);
+}
+.active-page {
+  font-weight: 900;
+}
 .hero p {
   font-size: 36px;
 }
 .logo {
-  padding: 10px;
-  width: 300px;
-  height: 100px;
+  max-width: 180px;
+  height: 60px;
 }
 
 .hero {
@@ -178,11 +204,7 @@ p {
   .hero p {
     font-size: 30px;
   }
-  .logo {
-    padding: 5px;
-    width: 180px;
-    height: 60px;
-  }
+
   .about-container {
     padding: 120px 20px 50px 20px;
   }
