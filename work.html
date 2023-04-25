@@ -31,8 +31,32 @@
     ></script>
   </head>
   <body>
+    <div class="container p-0">
+      <nav class="d-flex justify-content-between navbar-header">
+        <a href="/">
+          <img src="/images/logo.png" class="logo d-none d-sm-block" alt="" />
+        </a>
+        <a href="/">
+          <img
+            src="/images/miniLogo.png"
+            class="logo d-block d-sm-none"
+            alt=""
+          />
+        </a>
+        <ul>
+          <li><a href="/"> Home</a></li>
+
+          <li><a href="/about.html">About</a></li>
+
+          <li><a href="/work.html" class="active-page">Works</a></li>
+
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <nav
+        hidden
         class="navbar navbar-expand-md navbar-light fixed-top top-navigation"
       >
         <div class="container-fluid pe-3 ps-3">
@@ -90,7 +114,9 @@
       </nav>
       <div class="container flex">
         <div class="content-info">
-          <h1 class="mb-5">Take a look at what I've been working on!</h1>
+          <div class="work-text-block">
+            <h1 class="mb-5">Take a look at what I've been working on!</h1>
+          </div>
           <div class="row">
             <div class="col-md-6 mb-2">
               <img
