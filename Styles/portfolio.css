@@ -206,6 +206,43 @@ nav a:hover {
 .icons {
   color: var(--body-medium-color);
 }
+.footer-contact {
+  color: #024e4b;
+  position: absolute;
+  top: -150px;
+  left: 12.5%;
+  width: 75%;
+  background-color: var(--body-lihght-color);
+  padding: 50px;
+}
+.footer-class {
+  position: relative;
+  color: var(--body-lihght-color);
+  background-color: var(--body-medium-color);
+  text-align: center;
+  padding: 100px 0;
+  margin: 200px 0 20px 0;
+}
+.footer-email {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+}
+.footer-email:hover {
+  color: var(--body-lihght-color);
+}
+footer .social a {
+  margin: 0 20px;
+  color: var(--body-dark-color);
+  background: var(--shadow-color);
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: all 100ms ease-in-out;
+}
+footer .social a:hover {
+  color: var(--branding-color);
+}
 @media (max-width: 976px) {
   h1 {
     font-size: 45px;
