@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Neda. Neda's Portfolio Site - Front-end developer base in Iran"
+    />
     <title>Contact Me - Neda Hosseiny</title>
 
     <link
@@ -34,30 +38,37 @@
     <div class="container p-0">
       <nav class="d-flex justify-content-between navbar-header">
         <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-sm-block" alt="" />
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-sm-block"
+            title="Neda Logo"
+            alt="Neda Logo"
+          />
         </a>
         <a href="/">
           <img
             src="/images/miniLogo.png"
             class="logo d-block d-sm-none"
-            alt=""
+            title="Neda Logo"
+            alt="Neda Logo"
           />
         </a>
         <ul>
-          <li><a href="/"> Home</a></li>
+          <li><a href="/" title="HomePage"> Home</a></li>
 
-          <li><a href="/about.html">About</a></li>
+          <li><a href="/about.html" title="About Neda">About</a></li>
 
-          <li><a href="/work.html">Works</a></li>
+          <li><a href="/work.html" title="Neda's Works">Works</a></li>
 
-          <li><a href="/contact.html" class="active-page">Contact</a></li>
+          <li class="active-page">
+            <a href="/contact.html" title="Contact Neda">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
-
-    <div class="contact-container container">
-      <div class="contact-info">
-        <div class="work-text-block">
+    <div class="container">
+      <div class="contact-container">
+        <div class="contact-text-block">
           <h2 class="mb-5">
             You can get in touch with me in the following ways
             <i class="fa-regular fa-hand-point-down" class="icons"></i>
@@ -80,6 +91,62 @@
           </a>
         </p>
       </div>
+      <footer class="mt-5">
+        <div class="justify-content-center footer-class">
+          <div class="justify-content-between d-none d-md-flex footer-contact">
+            <div>
+              <h3>Work Inquiry</h3>
+              <p>Let's work togeter</p>
+            </div>
+            <div>
+              <a
+                href="/contact.html"
+                class="btn btn-header"
+                title="Contact Neda"
+              >
+                Contact Me</a
+              >
+            </div>
+          </div>
+          <p>
+            <a
+              href="mailto:neda.hs@gmail.com"
+              class="footer-email"
+              title="Email Neda"
+              >Neda.Hs@gmail.com</a
+            >
+          </p>
+          <div class="social justify-content-center d-flex">
+            <a
+              target="_blank"
+              href="https://github.com/neda-h/Portfolio"
+              title="Neda's Github profile"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/codebaazz"
+              title="Neda's Instagram  profile"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              target="_blank"
+              href="//telegram.me/nedahs"
+              title="Neda's telegram profile"
+            >
+              <i class="fab fa-telegram"></i>
+            </a>
+          </div>
+        </div>
+        <p class="text-center">
+          👆This project was coded Shecodes , and it is
+          <a href="https://github.com/neda-h/Portfolio" class="footer-copyright"
+            >Open-Sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Neda. Neda's Portfolio Site - Front-end developer base in Iran"
+    />
     <title>About Me - Neda Hosseiny</title>
 
     <link
@@ -31,107 +35,114 @@
     ></script>
   </head>
   <body>
-     <div class="container p-0">
+    <div class="container p-0">
       <nav class="d-flex justify-content-between navbar-header">
         <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-sm-block" alt="" />
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-sm-block"
+            title="Neda Logo"
+            alt="Neda Logo"
+          />
         </a>
         <a href="/">
           <img
             src="/images/miniLogo.png"
             class="logo d-block d-sm-none"
-            alt=""
+            title="Neda Logo"
+            alt="Neda Logo"
           />
         </a>
         <ul>
-          <li><a href="/" > Home</a></li>
+          <li><a href="/" title="HomePage"> Home</a></li>
 
-          <li><a href="/about.html" class="active-page">About</a></li>
+          <li class="active-page">
+            <a href="/about.html" title="About Neda">About</a>
+          </li>
 
-          <li><a href="/work.html">Works</a></li>
+          <li><a href="/work.html" title="Neda's Works">Works</a></li>
 
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/contact.html" title="Contact Neda">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="about-container container">
-      <nav hidden
-        class="navbar navbar-expand-md navbar-light fixed-top top-navigation"
-      >
-        <div class="container-fluid pe-3 ps-3">
-          <a class="navbar-brand" href="/" title="Homepage">
-            <img src="/images/Logo.png" class="logo" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse nav-collapse-show"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/" title="Homepage">Home </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  title="About Neda Hosseiny"
-                  href="/about.html"
-                  >About Me</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  title="Contact Neda Hosseiny"
-                  href="/contact.html"
-                  >Contact Me</a
-                >
-              </li>
-                <li class="nav-item">
-                <a
-                  class="nav-link "
-                  aria-current="page"
-                  title=" My Works "
-                  href="/work.html"
-                  >My Works</a
-                >
-              </li>
-            </ul>
+    <div class="container">
+      <div class="about-container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about-info">
+              <h1 class="mb-5">Hi I am Neda Hosseiny</h1>
+              <h2 class="mb-5">Frontend Developer, based in Iran.</h2>
+              <p class="mb-5">
+                For anyone who wants to start learning code, this workshop is
+                very interesting. You will be challenged with different
+                exercises, and everything is well explained, homework and
+                deadlines are good for keep focus
+              </p>
+              <a href="" class="btn btn-header">See my projects</a>
+            </div>
           </div>
-        </div>
-      </nav>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="about-info">
-            <h1 class="mb-5">Hi I am Neda Hosseiny</h1>
-            <h2 class="mb-5">Frontend Developer, based in Iran.</h3>
-            <p class="mb-5">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-            <a href="" class="btn btn-header">See my projects</a>
+          <div class="col-lg-6">
+            <img src="/images/neda.jpg" alt="neda" class="img-fluid rounded" />
           </div>
-        </div>
-        <div class="col-lg-6">
-          <img src="/images/neda.jpg" alt="neda" class="img-fluid rounded">
         </div>
       </div>
-    </div>
-
-    <div class="mt-5" hidden="true">
-      <h2 id="contact" class="text-center">✉ Contact Me</h2>
-      <p class="d-flex text-center">
-        <a href="mailto:neda@gmail.com" class="email-class"> neda@gmail.com </a>
-      </p>
+      <footer class="mt-5">
+        <div class="justify-content-center footer-class">
+          <div class="justify-content-between d-none d-md-flex footer-contact">
+            <div>
+              <h3>Work Inquiry</h3>
+              <p>Let's work togeter</p>
+            </div>
+            <div>
+              <a
+                href="/contact.html"
+                class="btn btn-header"
+                title="Contact Neda"
+              >
+                Contact Me</a
+              >
+            </div>
+          </div>
+          <p>
+            <a
+              href="mailto:neda.hs@gmail.com"
+              class="footer-email"
+              title="Email Neda"
+              >Neda.Hs@gmail.com</a
+            >
+          </p>
+          <div class="social justify-content-center d-flex">
+            <a
+              target="_blank"
+              href="https://github.com/neda-h/Portfolio"
+              title="Neda's Github profile"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/codebaazz"
+              title="Neda's Instagram  profile"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              target="_blank"
+              href="//telegram.me/nedahs"
+              title="Neda's telegram profile"
+            >
+              <i class="fab fa-telegram"></i>
+            </a>
+          </div>
+        </div>
+        <p class="text-center">
+          👆This project was coded Shecodes , and it is
+          <a href="https://github.com/neda-h/Portfolio" class="footer-copyright"
+            >Open-Sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

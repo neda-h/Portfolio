@@ -24,6 +24,10 @@ h1 {
 h2 {
   font-size: 40px;
 }
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
 p {
   font-size: 18px;
   font-weight: normal;
@@ -88,12 +92,11 @@ nav a:hover {
   max-width: 180px;
   height: 60px;
 }
+
 .work-text-block {
   background-color: var(--body-lihght-color);
-  border: 1px solid var(--body-dark-color);
-  border-radius: 4px;
   margin-bottom: 20px;
-  padding: 30px;
+  padding: 60px;
 }
 .hero {
   background-color: var(--body-lihght-color);
@@ -102,7 +105,7 @@ nav a:hover {
 .header-content {
   display: block;
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .hero p {
   font-family: var(--default-font);
@@ -141,7 +144,7 @@ nav a:hover {
 .about-container {
   background-color: var(--body-lihght-color);
 
-  padding: 200px 20px;
+  padding: 60px 20px;
 }
 .about-container h1 {
   font-size: 64px;
@@ -152,32 +155,33 @@ nav a:hover {
   margin: 20px;
 }
 .contact-container {
-  padding: 80px 20px;
+  padding: 0px 20px;
 }
-.contact-info {
-  margin: 20px;
+.contact-text-block {
+  background-color: var(--body-lihght-color);
+  padding: 60px;
+  margin-bottom: 20px;
 }
-.contact-info h1 {
+.contact-container h1 {
   font-size: 64px;
   line-height: 80px;
   text-align: left;
 }
-.contact-info h3 {
+.contact-container h3 {
   padding: 30px;
   font-size: 24px;
 }
-.contact-info a {
+.contact-container a {
   padding: 40px;
   text-decoration: none;
   color: var(--branding-color);
   font-weight: 900;
 }
 .content-container {
-  padding: 80px 20px;
+  padding: 0px 20px;
 }
 
 .content-info {
-  margin: 20px;
   text-align: center;
 }
 .content-info h1 {
@@ -214,6 +218,8 @@ nav a:hover {
   width: 75%;
   background-color: var(--body-lihght-color);
   padding: 50px;
+  border: 1px solid var(--body-dark-color);
+  border-radius: 4px;
 }
 .footer-class {
   position: relative;
@@ -222,6 +228,8 @@ nav a:hover {
   text-align: center;
   padding: 100px 0;
   margin: 200px 0 20px 0;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
 }
 .footer-email {
   text-decoration: none;
@@ -230,6 +238,13 @@ nav a:hover {
 }
 .footer-email:hover {
   color: var(--body-lihght-color);
+}
+.footer-copyright {
+  text-decoration: none;
+  color: var(--body-dark-color);
+}
+.footer-copyright:hover {
+  color: var(--branding-color);
 }
 footer .social a {
   margin: 0 20px;
@@ -258,6 +273,6 @@ footer .social a:hover {
   }
 
   .about-container {
-    padding: 120px 20px 50px 20px;
+    padding: 30px 20px 50px 20px;
   }
 }
